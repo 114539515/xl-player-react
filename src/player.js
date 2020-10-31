@@ -125,7 +125,7 @@ function VideoTools({
             leftExtContents={leftExtContents}
             leftMidExtContents={leftMidExtContents}
           />
-          {!isLive && <TimeLine api={playerObj.api} event={playerObj.event} />}
+          {!isLive && <TimeLine  api={playerObj.api} event={playerObj.event} />}
         </ContrallerEvent>
       )}
       <ErrorEvent flv={playerObj.flv} hls={playerObj.hls} api={playerObj.api} event={playerObj.event} errorReloadTimer={errorReloadTimer} />
