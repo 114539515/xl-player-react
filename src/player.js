@@ -67,8 +67,8 @@ function SinglePlayer({ type, file, className, autoPlay, muted, poster, playsinl
   }, [file]);
   return (
     <div className={`lm-player-container ${className}`} ref={playContainerRef}>
-      <div className="player-mask-layout">
-        <video autoPlay={autoPlay} preload={preload} muted={muted} poster={poster} controls={false} playsInline={playsinline} loop={loop} />
+      <div className={`player-mask-layout ${className}`} >
+        <video autoPlay={autoPlay} preload={preload} muted={muted} poster={poster} controls={true} playsInline={playsinline} loop={loop} className={`player-mask-layout ${className}`}/>
       </div>
       <VideoTools
         playerObj={playerObj}
