@@ -19,9 +19,9 @@ export { Player as default, Player, HistoryPlayer, createHistoryPlayer, createPl
 
 ```javascript
 
-yarn add lm-player
+yarn add xl-player-react
 //or
-npm i lm-player
+npm i xl-player-react
 
 ```
 
@@ -31,7 +31,7 @@ npm i lm-player
 
 ```javascript
 //React simple demo
-import LMPlayer from 'lm-player'
+import LMPlayer from 'xl-player-react'
 ReactDOM.render(
   <LMPlayer
     file={`./video.mp4?${Math.random()}`}

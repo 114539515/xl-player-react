@@ -1,10 +1,10 @@
 {
-  "name": "lm-player",
-  "version": "0.2.17",
+  "name": "xl-player-react",
+  "version": "0.1.0",
   "description": "video for html5 support flv m3u8",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Easy-Martin/lm-player.git"
+    "url": "git+https://github.com/114539515/xl-player-react.git"
   },
   "keywords": [
     "video",
@@ -16,9 +16,9 @@
   "author": "Easy-Martin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Easy-Martin/lm-player/issues"
+    "url": "https://github.com/114539515/issues"
   },
-  "homepage": "https://github.com/Easy-Martin/lm-player",
+  "homepage": "https://github.com/114539515/xl-player-react",
   "main": "es/player.js",
   "dependencies": {
     "aes-js": "^3.1.2",
